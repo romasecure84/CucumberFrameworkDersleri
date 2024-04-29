@@ -46,4 +46,16 @@ public class StepDefinitions {
         Thread.sleep(2000);
         MyDriver.closeDriver();
     }
+
+
+    @And("user types username {string}")
+    public void userTypesUsername(String username) {
+        loginPage = new LoginPage(driver);
+        loginPage.setUsername(username);
+    }
+
+    @And("user types password {string}")
+    public void userTypesPassword(String password) {
+        loginPage.setPassword(password);
+    }
 }

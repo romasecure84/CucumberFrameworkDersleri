@@ -5,11 +5,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.asserts.SoftAssert;
+
 
 import javax.xml.xpath.XPath;
 
 public class LoginPage {
     private WebDriver driver;
+    SoftAssert softAssert=new SoftAssert();
 
     @FindBy(id = "username")
     private WebElement usernameInput;
@@ -41,6 +44,7 @@ public class LoginPage {
     }
 
     public void assertToSuccessMessage(){
-        Assert.assertTrue(successMessage.isDisplayed());
+        softAssert.assertTrue(successMessage.isDisplayed());
+        softAssert.assertAll();
     }
 }

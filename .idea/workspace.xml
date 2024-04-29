@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf96fd29-9d53-401b-8b87-f6db88083d5c" name="Changes" comment="cucumber ssenarisiyle test dersi elave olundu">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+    <list default="true" id="bf96fd29-9d53-401b-8b87-f6db88083d5c" name="Changes" comment="myPage class'i elave edilib tekrar test edildi, kohne kodlar // icerisine alindi">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/ExampleScenarioOutline.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,15 +50,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Cucumber Java.Feature: ExampleScenario.executor": "Run",
+    "Cucumber Java.Scenario: .executor": "Run",
     "Cucumber Java.Scenario: go to website and login test.executor": "Run",
     "JUnit.TestRunners.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ROMA2/IdeaProjects/cucumberBDDFramework",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestRunners">
+  <component name="RunManager" selected="Cucumber Java.Scenario: ">
     <configuration name="Feature: ExampleScenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ExampleScenario.feature" />
@@ -94,6 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ExampleScenarioOutline.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberFrameworkDersleri" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberFrameworkDersleri" />
       <extension name="coverage">
@@ -111,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="JUnit.TestRunners" />
         <item itemvalue="Cucumber Java.Feature: ExampleScenario" />
         <item itemvalue="Cucumber Java.Scenario: go to website and login test" />
@@ -166,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714417849745</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="myPage class'i elave edilib tekrar test edildi, kohne kodlar // icerisine alindi">
+      <option name="closed" value="true" />
+      <created>1714419134181</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714419134181</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,6 +209,7 @@
     <MESSAGE value="pom xml dosyalari quruldu" />
     <MESSAGE value="lazimi package'ler ve dosyalar yaradildi" />
     <MESSAGE value="cucumber ssenarisiyle test dersi elave olundu" />
-    <option name="LAST_COMMIT_MESSAGE" value="cucumber ssenarisiyle test dersi elave olundu" />
+    <MESSAGE value="myPage class'i elave edilib tekrar test edildi, kohne kodlar // icerisine alindi" />
+    <option name="LAST_COMMIT_MESSAGE" value="myPage class'i elave edilib tekrar test edildi, kohne kodlar // icerisine alindi" />
   </component>
 </project>

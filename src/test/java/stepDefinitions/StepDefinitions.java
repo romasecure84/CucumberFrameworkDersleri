@@ -1,11 +1,22 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.*;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebDriver;
+import utilities.MyDriver;
+
+import java.time.Duration;
 
 public class StepDefinitions {
+    private  WebDriver driver;
+
     @Given("go to login page")
     public void go_to_login_page() {
-
+        driver = MyDriver.getDriver();
+        driver.get("https://www.google.az");
     }
     @Given("type username")
     public void type_username() {

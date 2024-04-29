@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf96fd29-9d53-401b-8b87-f6db88083d5c" name="Changes" comment="lazimi package'ler ve dosyalar yaradildi">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/MyDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/ExampleScenario.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ExampleScenario.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
   "keyToString": {
     "Cucumber Java.Feature: ExampleScenario.executor": "Run",
     "Cucumber Java.Scenario: go to website and login test.executor": "Run",
+    "JUnit.TestRunners.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",

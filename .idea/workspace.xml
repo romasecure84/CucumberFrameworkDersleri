@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf96fd29-9d53-401b-8b87-f6db88083d5c" name="Changes" comment="lazimi package'ler ve dosyalar yaradildi">
+    <list default="true" id="bf96fd29-9d53-401b-8b87-f6db88083d5c" name="Changes" comment="cucumber ssenarisiyle test dersi elave olundu">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714414203145</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cucumber ssenarisiyle test dersi elave olundu">
+      <option name="closed" value="true" />
+      <created>1714417849745</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714417849745</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,6 +175,7 @@
     <MESSAGE value="Yeni reposity yaradildi" />
     <MESSAGE value="pom xml dosyalari quruldu" />
     <MESSAGE value="lazimi package'ler ve dosyalar yaradildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="lazimi package'ler ve dosyalar yaradildi" />
+    <MESSAGE value="cucumber ssenarisiyle test dersi elave olundu" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber ssenarisiyle test dersi elave olundu" />
   </component>
 </project>

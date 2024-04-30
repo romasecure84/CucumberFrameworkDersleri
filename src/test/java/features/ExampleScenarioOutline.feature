@@ -1,5 +1,6 @@
 Feature: Example scenario outline
-
+  Background:
+    Given setting driver
   Scenario Outline:
     Given go to login page
     And user types username "<username>"
@@ -9,5 +10,9 @@ Feature: Example scenario outline
     Examples:
       | username | password    |
       | student  | Password123 |
-      | roma     | 123456      |
-      | python   | 987456321   |
+
+
+  Scenario: home page loading test
+    Given go to home page
+    When wait two second
+    Then Assert "Hello" message is displayed

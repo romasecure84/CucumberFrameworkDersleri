@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf96fd29-9d53-401b-8b87-f6db88083d5c" name="Changes" comment="myPage class'i elave edilib tekrar test edildi, kohne kodlar // icerisine alindi">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/ExampleScenarioOutline.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/ExampleScenarioOutline.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ExampleScenarioOutline.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
     </list>
@@ -52,6 +52,7 @@
     "Cucumber Java.Feature: ExampleScenario.executor": "Run",
     "Cucumber Java.Scenario: .executor": "Run",
     "Cucumber Java.Scenario: go to website and login test.executor": "Run",
+    "Cucumber Java.Scenario: home page loading test.executor": "Run",
     "JUnit.TestRunners.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -60,7 +61,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: ">
+  <component name="RunManager" selected="Cucumber Java.Scenario: home page loading test">
     <configuration name="Feature: ExampleScenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ExampleScenario.feature" />
@@ -79,14 +80,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: go to website and login test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: ExampleScenarioOutline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ExampleScenario.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ExampleScenarioOutline.feature" />
+      <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberFrameworkDersleri" />
-      <option name="NAME_FILTER" value="^go to website and login test$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^go to website and login test$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: go to website and login test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: ExampleScenarioOutline" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: home page loading test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ExampleScenarioOutline.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberFrameworkDersleri" />
+      <option name="NAME_FILTER" value="^home page loading test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^home page loading test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: home page loading test" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,10 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: " />
+        <item itemvalue="Cucumber Java.Scenario: home page loading test" />
+        <item itemvalue="Cucumber Java.Feature: ExampleScenarioOutline" />
         <item itemvalue="JUnit.TestRunners" />
+        <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="Cucumber Java.Feature: ExampleScenario" />
-        <item itemvalue="Cucumber Java.Scenario: go to website and login test" />
       </list>
     </recent_temporary>
   </component>

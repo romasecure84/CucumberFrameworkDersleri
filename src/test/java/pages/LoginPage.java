@@ -12,13 +12,13 @@ import javax.xml.xpath.XPath;
 
 public class LoginPage {
     private WebDriver driver;
-    SoftAssert softAssert=new SoftAssert();
+    SoftAssert softAssert = new SoftAssert();
 
     @FindBy(id = "username")
     private WebElement usernameInput;
 
     @FindBy(id = "password")
-    private  WebElement passwordInput;
+    private WebElement passwordInput;
 
     @FindBy(id = "submit")
     private WebElement submitButton;
@@ -26,24 +26,27 @@ public class LoginPage {
     @FindBy(xpath = "//*[text()='Logged In Successfully']")
     private WebElement successMessage;
 
-    public LoginPage(WebDriver driver){
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+    @FindBy(xpath = "//*[@class='post-title']")
+    private WebElement helloText;
+
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
-    public void setUsername(String username){
+    public void setUsername(String username) {
         usernameInput.sendKeys(username);
     }
 
-    public void setPassword(String password){
+    public void setPassword(String password) {
         passwordInput.sendKeys(password);
     }
 
-    public void clickButton(){
+    public void clickButton() {
         submitButton.click();
     }
 
-    public void assertToSuccessMessage(){
+    public void assertToSuccessMessage() {
         softAssert.assertTrue(successMessage.isDisplayed());
         softAssert.assertAll();
     }

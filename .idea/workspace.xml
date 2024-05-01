@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf96fd29-9d53-401b-8b87-f6db88083d5c" name="Changes" comment="myPage class'i elave edilib tekrar test edildi, kohne kodlar // icerisine alindi">
+    <list default="true" id="bf96fd29-9d53-401b-8b87-f6db88083d5c" name="Changes" comment="scenario'ya background elave edildi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/ExampleScenarioOutline.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ExampleScenarioOutline.feature" afterDir="false" />
@@ -47,20 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: ExampleScenario.executor": "Run",
-    "Cucumber Java.Scenario: .executor": "Run",
-    "Cucumber Java.Scenario: go to website and login test.executor": "Run",
-    "Cucumber Java.Scenario: home page loading test.executor": "Run",
-    "JUnit.TestRunners.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ROMA2/IdeaProjects/cucumberBDDFramework",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: ExampleScenario.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: ExampleScenarioOutline.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: .executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: go to website and login test.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: home page loading test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRunners.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ROMA2/IdeaProjects/cucumberBDDFramework&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Cucumber Java.Scenario: home page loading test">
     <configuration name="Feature: ExampleScenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -221,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714419134181</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="scenario'ya background elave edildi">
+      <option name="closed" value="true" />
+      <created>1714502243336</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714502243336</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +241,7 @@
     <MESSAGE value="lazimi package'ler ve dosyalar yaradildi" />
     <MESSAGE value="cucumber ssenarisiyle test dersi elave olundu" />
     <MESSAGE value="myPage class'i elave edilib tekrar test edildi, kohne kodlar // icerisine alindi" />
-    <option name="LAST_COMMIT_MESSAGE" value="myPage class'i elave edilib tekrar test edildi, kohne kodlar // icerisine alindi" />
+    <MESSAGE value="scenario'ya background elave edildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="scenario'ya background elave edildi" />
   </component>
 </project>

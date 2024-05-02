@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf96fd29-9d53-401b-8b87-f6db88083d5c" name="Changes" comment="scenario'ya background elave edildi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/ExampleScenarioOutline.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ExampleScenarioOutline.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunners.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: home page loading test">
+  <component name="RunManager" selected="JUnit.TestRunners">
     <configuration name="Feature: ExampleScenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ExampleScenario.feature" />
@@ -157,9 +154,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunners" />
         <item itemvalue="Cucumber Java.Scenario: home page loading test" />
         <item itemvalue="Cucumber Java.Feature: ExampleScenarioOutline" />
-        <item itemvalue="JUnit.TestRunners" />
         <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="Cucumber Java.Feature: ExampleScenario" />
       </list>
@@ -230,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714502243336</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="scenario'ya background elave edildi">
+      <option name="closed" value="true" />
+      <created>1714592621597</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714592621597</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
